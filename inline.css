@@ -154,6 +154,7 @@ li .btn-resv{
     display: block;
     margin: 0 auto;
     object-position: -120px;
+    overflow: hidden;
 }
 
 .sec2-text {
@@ -181,17 +182,93 @@ li .btn-resv{
     color: #ec6300;
     font-size: 20pt;
     margin-bottom: 40px;
+    font-weight: 700;
+    font-family: "Noto Sans TC", sans-serif;
 }
 .middle2{
    text-align: center;
+   color: #252932;
+   font-weight: 600;
+   font-size: 24pt;
+   font-family: "Noto Sans TC", sans-serif;
+   margin-bottom: 20px;
 }
 
+/* section4 */
 
+.sec4 {
+    margin: 0 auto;
+    position: relative;
+}
+
+.sec4 img{
+  
+}
 .sec4-container{
-    max-width: 1500px;
-
+    margin: 0 auto;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .left {
-    width: 50%;
+    width: 45%;
+    margin: 100px 0px 30px 40px ;
+    padding: 20px;
+}
+
+.right {
+    width: 45%;
+    margin: 30px;
+}
+
+.ipad {
+    object-fit: contain;
+
+}
+.feat-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.feat-title {
+    font-size:24px;
+    color:#064c8c;
+    display: block;
+    font-weight: 500;
+    margin: 20px 30px 60px 30px ;
+    letter-spacing: 1px;
+    padding-left: 20px;
+}
+.feat-card{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.icon-wrap {
+    width:44px;
+    height:44px;
+  
+}
+
+.feat-content{
+    flex:1;
+}
+
+h3 {
+    font-size: 19px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 10px 0px;
+    color: #252932;
+}
+
+.feat-content p{
+    font-size: 16px;
+    font-weight: 320;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    color: #252932;
+    font-family: Arial, Helvetica, sans-serif;
 }
